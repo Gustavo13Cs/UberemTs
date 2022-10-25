@@ -4,8 +4,8 @@ import { individualCreateVeicleCustomerfactory } from "./factories/individual-cu
 const enterpriseFactory = new EnterpriseCreateVeicleCustomerfactory();
 const individualFactory = new individualCreateVeicleCustomerfactory();
 
-const car1 = enterpriseFactory.createVehicle('Fusca','João');
-const car2 = individualFactory.createVehicle('Celta', 'Helena');
+const car1 = enterpriseFactory.createVehicle('Fusca','Reginaldo');
+const car2 = individualFactory.createVehicle('Celta', 'Kauan');
 
 car1.pickup();
 car2.pickup();
